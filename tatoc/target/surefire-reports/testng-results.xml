@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="selenium.one.tatoc.AppTest" duration-ms="6963" started-at="2018-06-20T10:52:43Z" finished-at="2018-06-20T10:52:50Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="6963" started-at="2018-06-20T10:52:43Z" finished-at="2018-06-20T10:52:50Z">
+      <class name="selenium.one.tatoc.AppTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:selenium.one.tatoc.AppTest@6cd8737]" name="before" is-config="true" duration-ms="3554" started-at="2018-06-20T16:22:43Z" finished-at="2018-06-20T16:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="page1()[pri:0, instance:selenium.one.tatoc.AppTest@6cd8737]" name="page1" duration-ms="207" started-at="2018-06-20T16:22:47Z" finished-at="2018-06-20T16:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- page1 -->
+        <test-method status="PASS" signature="page2()[pri:0, instance:selenium.one.tatoc.AppTest@6cd8737]" name="page2" duration-ms="162" started-at="2018-06-20T16:22:47Z" depends-on-methods="selenium.one.tatoc.AppTest.page1" finished-at="2018-06-20T16:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- page2 -->
+        <test-method status="PASS" signature="page3()[pri:0, instance:selenium.one.tatoc.AppTest@6cd8737]" name="page3" duration-ms="701" started-at="2018-06-20T16:22:47Z" depends-on-methods="selenium.one.tatoc.AppTest.page2" finished-at="2018-06-20T16:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- page3 -->
+        <test-method status="PASS" signature="page4()[pri:0, instance:selenium.one.tatoc.AppTest@6cd8737]" name="page4" duration-ms="231" started-at="2018-06-20T16:22:48Z" depends-on-methods="selenium.one.tatoc.AppTest.page3" finished-at="2018-06-20T16:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- page4 -->
+        <test-method status="PASS" signature="page5()[pri:0, instance:selenium.one.tatoc.AppTest@6cd8737]" name="page5" duration-ms="1342" started-at="2018-06-20T16:22:48Z" depends-on-methods="selenium.one.tatoc.AppTest.page4" finished-at="2018-06-20T16:22:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- page5 -->
+        <test-method status="PASS" signature="page6()[pri:0, instance:selenium.one.tatoc.AppTest@6cd8737]" name="page6" duration-ms="177" started-at="2018-06-20T16:22:49Z" depends-on-methods="selenium.one.tatoc.AppTest.page5" finished-at="2018-06-20T16:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- page6 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:selenium.one.tatoc.AppTest@6cd8737]" name="after" is-config="true" duration-ms="575" started-at="2018-06-20T16:22:50Z" finished-at="2018-06-20T16:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- selenium.one.tatoc.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- selenium.one.tatoc.AppTest -->
+</testng-results>
